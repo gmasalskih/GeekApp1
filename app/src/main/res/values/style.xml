@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Floating label style-->
+    <style name="EditTextHintStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">#4CAF50</item>
+        <item name="boxStrokeColor">#673AB7</item>
+    </style>
+    <!--Input field style-->
+    <style name="EditTextStyle" parent="ThemeOverlay.AppCompat.DayNight">
+        <item name="colorControlNormal">#00BCD4</item>
+        <item name="colorControlActivated">#FFEB3B</item>
+    </style>
+
+    <style name="CounterStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#4CAF50</item>
+    </style>
+
+</resources>
